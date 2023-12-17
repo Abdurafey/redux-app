@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles.css */
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity_minus,
+.quantity_plus {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 10px;
+  color: #007bff; /* blue color, you can change it */
+}
+
+.quantity_input {
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #007bff; /* blue border, you can change it */
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.quantity_input:focus {
+  outline: none;
+  border-color: #0056b3; /* darker blue when focused, you can change it */
+}
+
+h1 {
+  color: #333;
+}
+
+h4 {
+  color: #555;
+}
